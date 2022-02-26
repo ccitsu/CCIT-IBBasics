@@ -29,11 +29,19 @@
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qIC-3k-CD0"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="NEW LABEL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jco-TJ-g3j">
+                                <rect key="frame" x="161" y="279" width="93" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Aqf-GL-4hh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8W0-Jl-QtK"/>
+                            <constraint firstItem="Jco-TJ-g3j" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CO8-AW-UoY"/>
+                            <constraint firstItem="Jco-TJ-g3j" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="VVT-ck-o6O"/>
                             <constraint firstItem="gRg-ho-paM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ZYJ-8V-UWE"/>
                             <constraint firstItem="Aqf-GL-4hh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fGR-fK-zIO"/>
                             <constraint firstItem="gRg-ho-paM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fcE-I1-kQI"/>
